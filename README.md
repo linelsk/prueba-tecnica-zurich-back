@@ -212,6 +212,7 @@ docker-compose down --volumes --remove-orphans
 ## Imágenes de Referencia
 
 ![API](docs/api_zurich.png)
+![API](docs/dockers_run.png)
 
 ---
 
