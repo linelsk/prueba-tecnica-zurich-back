@@ -220,7 +220,3 @@ docker-compose down --volumes --remove-orphans
 Si tienes dudas o problemas, por favor abre un issue en el repositorio o contacta al responsable del proyecto.
 
 Rodrigo Alberto Rodriguez Peralta, rodrigo.stps@gmail.com
-
----
-
-**Este README está diseñado para que cualquier persona pueda levantar y probar el proyecto sin contratiempos.**
