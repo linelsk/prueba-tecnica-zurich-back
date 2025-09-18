@@ -1,0 +1,15 @@
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\dal.zurich.rarp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\dal.zurich.rarp.AssemblyInfoInputs.cache
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\dal.zurich.rarp.AssemblyInfo.cs
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\dal.zurich.rarp.csproj.CoreCompileInputs.cache
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\bin\Debug\net8.0\dal.zurich.rarp.deps.json
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\bin\Debug\net8.0\dal.zurich.rarp.dll
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\bin\Debug\net8.0\dal.zurich.rarp.pdb
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\dal.zurich.rarp.csproj.AssemblyReference.cache
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\dal.zurich.rarp.dll
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\refint\dal.zurich.rarp.dll
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\dal.zurich.rarp.pdb
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\ref\dal.zurich.rarp.dll
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\bin\Debug\net8.0\biz.zurich.rarp.dll
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\bin\Debug\net8.0\biz.zurich.rarp.pdb
+C:\Users\linel\Downloads\Prueba_tecnica_Zurich\api.zurich.rarp\dal.zurich.rarp\obj\Debug\net8.0\dal.zuri.B490AF6A.Up2Date
