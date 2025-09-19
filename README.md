@@ -81,7 +81,7 @@ Debes ver dos contenedores: `sqlserver2` y `zurich-api`.
 ## Creación y Poblado de la Base de Datos
 
 ### 1. Crear la base de datos y las tablas
-
+Despues de que el contenedor de SQL Server esté corriendo, espera unos minutos para asegurarte de que SQL Server esté listo para aceptar conexiones.
 Utiliza el archivo llamado `script_creacion_bd.sql` que se encuentra en la raíz del proyecto con el siguiente contenido:
 
 ```sql
@@ -151,6 +151,18 @@ GO
 ### 2. Ejecutar el script de creación
 
 Ejecuta el siguiente comando en power Shell de windows desde la raíz del proyecto (ajusta la red si es necesario):
+Revisa las redes creadas con `docker network ls` y usa la que corresponda.
+
+Ejemplo de salida de `docker network ls`:
+
+Para este ejemplo, la red es `prueba-tecnica-zurich-back-main_zurich-network` y deberas cambiarla en el parametro `--network`. del comando que se encuentra mas abajo.
+```sh
+NETWORK ID     NAME                                             DRIVER    SCOPE
+9039f1b2256c   bridge                                           bridge    local
+f9cad3a6514a   host                                             host      local
+251c593a755f   none                                             null      local
+724582228d31   prueba-tecnica-zurich-back-main_zurich-network   bridge    local
+
 
 ```sh
 docker run -it --rm -v ${PWD}:/sql --network=apizurichrarp_zurich-network mcr.microsoft.com/mssql-tools /opt/mssql-tools/bin/sqlcmd -S sqlserver2 -U sa -P 'Your_password123!' -i /sql/script_creacion_bd.sql
