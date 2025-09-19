@@ -186,7 +186,7 @@ GO
 Ejecuta este comando en power Shell de windows:
 
 ```sh
-docker run -it --rm -v ${PWD}:/sql --network=apizurichrarp_zurich-network mcr.microsoft.com/mssql-tools /opt/mssql-tools/bin/sqlcmd -S sqlserver2 -U sa -P 'Your_password123!' -i /sql/populate_roles.sql
+docker run -it --rm -v ${PWD}:/sql --network=apizurichrarp_zurich-network mcr.microsoft.com/mssql-tools /opt/mssql-tools/bin/sqlcmd -S sqlserver2 -U sa -P 'Your_password123!' -i /sql/add_roles.sql
 ```
 
 ---
