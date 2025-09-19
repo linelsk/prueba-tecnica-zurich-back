@@ -82,7 +82,7 @@ Debes ver dos contenedores: `sqlserver2` y `zurich-api`.
 
 ### 1. Crear la base de datos y las tablas
 
-Crea un archivo llamado `script.sql` en la raíz del proyecto con el siguiente contenido:
+Utiliza el archivo llamado `script_creacion_bd.sql` que se encuentra en la raíz del proyecto con el siguiente contenido:
 
 ```sql
 USE [master]
@@ -150,15 +150,15 @@ GO
 
 ### 2. Ejecutar el script de creación
 
-Ejecuta el siguiente comando desde la raíz del proyecto (ajusta la red si es necesario):
+Ejecuta el siguiente comando en power Shell de windows desde la raíz del proyecto (ajusta la red si es necesario):
 
 ```sh
-docker run -it --rm -v ${PWD}:/sql --network=apizurichrarp_zurich-network mcr.microsoft.com/mssql-tools /opt/mssql-tools/bin/sqlcmd -S sqlserver2 -U sa -P 'Your_password123!' -i /sql/script.sql
+docker run -it --rm -v ${PWD}:/sql --network=apizurichrarp_zurich-network mcr.microsoft.com/mssql-tools /opt/mssql-tools/bin/sqlcmd -S sqlserver2 -U sa -P 'Your_password123!' -i /sql/script_creacion_bd.sql
 ```
 
 ### 3. Popular la tabla Roles
 
-Crea un archivo llamado `populate_roles.sql` con el siguiente contenido:
+Utiliza el archivo llamado `add_roles.sql` que se encuentra en la raiz del proyecto con el siguiente contenido:
 
 ```sql
 USE ZurichRarp;
@@ -171,7 +171,7 @@ SET IDENTITY_INSERT Roles OFF;
 GO
 ```
 
-Ejecuta:
+Ejecuta este comando en power Shell de windows:
 
 ```sh
 docker run -it --rm -v ${PWD}:/sql --network=apizurichrarp_zurich-network mcr.microsoft.com/mssql-tools /opt/mssql-tools/bin/sqlcmd -S sqlserver2 -U sa -P 'Your_password123!' -i /sql/populate_roles.sql
