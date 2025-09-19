@@ -65,7 +65,7 @@ docker-compose up --build
 
 Esto descargará las imágenes necesarias, construirá la imagen de la API y levantará los contenedores de la API y SQL Server.
 
-- La API estará disponible en: [http://localhost:5000](http://localhost:5000)
+- La API estará disponible en: [http://localhost:5000/swagger](http://localhost:5000/swagger)
 - SQL Server estará escuchando en el puerto 1433.
 
 ### 2. Verificar que los contenedores están corriendo
